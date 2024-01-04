@@ -96,7 +96,10 @@ ul li a:hover::before{
 }
 
 .content .right img{
-    width: 120%;
+    float: right;
+    width: 65%;
+    margin: 0px -65px;
+    bottom: 30px;
     position: relative;
     z-index: 999;
     cursor: pointer;
@@ -135,8 +138,15 @@ h4, p{
 }
 
 .about-content img{
-    width: 100%;
-    transform: scaleX(-1);
+    float: right;
+    height: 515px;
+    width: 420px;
+    margin: 0px -25px;
+    bottom: -40px;
+    position: relative;
+    z-index: 999;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
 
 .about-content ul{
@@ -238,7 +248,7 @@ h4, p{
 }
 
 .experience-details{
-    border-bottom: 2px solid var(--red-color);
+    /* border-bottom: 2px solid var(--red-color); */
     padding-bottom: 30px;
     margin-top: 40px;
 }
